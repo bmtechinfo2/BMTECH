@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BMTech Informática | Suporte Técnico e Soluções em TI em Campo Grande - MS</title>
+<meta name="description" content="Assistência técnica especializada, suporte de TI, manutenção, reparos de placa e soluções tecnológicas para pessoas e empresas em Campo Grande - MS.">
+<meta name="theme-color" content="#333333">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: { sans: ['Lexend', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Arial', 'sans-serif'] },
+        colors: { grafite: '#333333', chumbo: '#4B4B4B', cinzaFundo: '#F8F9FA', zap: '#25D366', zapDark: '#1DA851' }
+      }
+    }
+  }
+</script>
+<style>
+  @keyframes pulse-soft { 0%, 100% { transform: scale(1); opacity: .6; } 50% { transform: scale(1.5); opacity: 0; } }
+  .animate-pulse-soft { animation: pulse-soft 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+</style>
+</head>
+<body class="font-sans text-chumbo bg-white antialiased selection:bg-grafite selection:text-white">
+
+<!-- Cabeçalho Institucional -->
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="#topo" class="group flex flex-col focus:outline-none">
+      <span class="text-2xl font-bold tracking-wider text-grafite">BMTECH</span>
+      <span class="text-[9px] tracking-[0.35em] text-gray-500 font-medium">INFORMÁTICA</span>
+    </a>
+    
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+      <a href="#servicos" class="hover:text-grafite transition">Serviços</a>
+      <a href="#empresa" class="hover:text-grafite transition">Para Empresas</a>
+      <a href="#remoto" class="hover:text-grafite transition">Suporte Remoto</a>
+      <a href="#contato" class="hover:text-grafite transition">Contato</a>
+    </nav>
+
+    <div class="flex items-center gap-4">
+      <a href="tel:67996839172" class="hidden lg:block text-xs font-semibold text-gray-500 hover:text-grafite">(67) 99683-9172</a>
+      <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Vim%20pelo%20site%20da%20BMTech%20e%20preciso%20de%20suporte."
+         class="inline-flex items-center gap-2 bg-zap hover:bg-zapDark text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-full shadow-sm transition transform hover:-translate-y-0.5">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6a12 12 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.9 9.9 0 1 1 8.3 4.6zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1l-1 1.2c-.2.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- Hero Section (Estilo CTI Minimalista & Forte) -->
+  <section class="bg-gradient-to-b from-gray-50/60 to-white py-16 lg:py-24 border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-grafite/5 border border-grafite/10 px-3.5 py-1.5 rounded-full text-xs font-semibold text-grafite">
+          <span class="w-2 h-2 rounded-full bg-zap"></span> TECNOLOGIA &bull; PESSOAS &bull; SOLUÇÕES
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-grafite leading-[1.12]">
+          Sua tecnologia em <span class="text-transparent bg-clip-text bg-gradient-to-r from-grafite to-chumbo underline decoration-zap/60 decoration-wavy">boas mãos</span>.
+        </h1>
+
+        <p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
+          Do seu notebook à infraestrutura da sua empresa. A BMTech cuida da tecnologia para você seguir com o que importa, com atendimento especializado em Windows e Mac em Campo Grande - MS.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+          <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+             class="inline-flex items-center justify-center gap-3 bg-zap hover:bg-zapDark text-white font-semibold text-base px-8 py-4 rounded-xl shadow-lg shadow-zap/20 transition transform hover:-translate-y-0.5">
+            Solicitar um orçamento ↗
+          </a>
+          <a href="#servicos" class="inline-flex items-center justify-center px-8 py-4 rounded-xl border border-gray-300 text-grafite font-semibold hover:bg-gray-50 transition">
+            Conhecer os serviços →
+          </a>
+        </div>
+
+        <p class="text-xs text-gray-400 font-medium pt-2">Atendimento presencial em Campo Grande - MS e suporte remoto especializado.</p>
+      </div>
+
+      <!-- Bloco de Apresentação Técnica / Cartão -->
+      <div class="lg:col-span-5">
+        <div class="bg-grafite text-white rounded-3xl p-8 shadow-xl border border-gray-700 relative overflow-hidden">
+          <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-chumbo/30 rounded-full blur-2xl pointer-events-none"></div>
+          
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-xs uppercase tracking-widest text-gray-400 font-semibold">Técnico Responsável</p>
+              <h3 class="text-2xl font-bold mt-1">Baltazar Junior</h3>
+              <p class="text-sm text-gray-300">Eletrônica & Informática</p>
+            </div>
+            <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center font-bold text-sm">BM</div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-white/10 space-y-3">
+            <div class="flex items-center justify-between text-sm">
+              <span class="text-gray-300">Computadores & Notebooks</span>
+              <span class="text-zap font-semibold">Windows / Mac</span>
+            </div>
+            <div class="flex items-center justify-between text-sm">
+              <span class="text-gray-300">Reparo de Placas & Circuitos</span>
+              <span class="text-zap font-semibold">Avançado</span>
+            </div>
+            <div class="flex items-center justify-between text-sm">
+              <span class="text-gray-300">Suporte a Pequenas Empresas</span>
+              <span class="text-zap font-semibold">Avulso / Mensal</span>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+            <div class="flex items-center gap-3 text-gray-300">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.4 9.8 2v9.4H0zM11 1.8 24 0v11.4H11zM0 12.6h9.8V22L0 20.6zM11 12.6h13V24l-13-1.8z"/></svg>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.3-1.2 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.8-1-2.8-4zM14 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.4-.6 3.1-1.5z"/></svg>
+            </div>
+            <a href="https://wa.me/5567996839172" class="text-xs font-semibold tracking-wider text-zap hover:underline">WHATSAPP DIRETO &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção de Serviços (Grid Organizado Inspirado no CTI) -->
+  <section id="servicos" class="py-24 bg-cinzaFundo">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-2xl mb-16">
+        <p class="text-xs uppercase tracking-widest text-gray-500 font-semibold mb-2">Pessoas e empresas</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-grafite">Uma solução para cada necessidade</h2>
+        <p class="mt-3 text-gray-600">Manutenção &bull; Suporte &bull; Infraestrutura tecnológica estruturada.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Item 1 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-gray-400">01. MANUTENÇÃO & REPARO</span>
+            <h3 class="text-xl font-bold text-grafite mt-2">Computadores e notebooks de volta à rotina</h3>
+            <p class="mt-3 text-gray-600 text-sm leading-relaxed">Diagnóstico preciso, formatação segura, limpeza preventiva e solução de lentidões ou travamentos em Windows e Mac.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100">
+            <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Quero%20saber%20mais%20sobre%20manuten%C3%A7%C3%A3o." class="text-sm font-semibold text-grafite hover:text-zap transition flex items-center justify-between">
+              Ver serviço <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-gray-400">02. PLACAS & CIRCUITOS</span>
+            <h3 class="text-xl font-bold text-grafite mt-2">Reparos avançados em nível de componente</h3>
+            <p class="mt-3 text-gray-600 text-sm leading-relaxed">Análise técnica especializada em placas-mãe de desktops e notebooks que não ligam, não dão vídeo ou desligam sozinhas.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100">
+            <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Preciso%20de%20um%20reparo%20de%20placa." class="text-sm font-semibold text-grafite hover:text-zap transition flex items-center justify-between">
+              Ver serviço <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-gray-400" id="empresa">03. SUPORTE PARA EMPRESAS</span>
+            <h3 class="text-xl font-bold text-grafite mt-2">TI acompanhada de perto para o seu negócio</h3>
+            <p class="mt-3 text-gray-600 text-sm leading-relaxed">Atendimento técnico avulso ou contratos mensais corporativos, unindo suporte presencial e remoto para manter sua operação estável.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100">
+            <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Quero%20conhecer%20os%20planos%20para%20empresas." class="text-sm font-semibold text-grafite hover:text-zap transition flex items-center justify-between">
+              Ver serviço <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Como Funciona / Abordagem -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <p class="text-xs uppercase tracking-widest text-gray-500 font-semibold mb-2">Prazer, somos a BMTech</p>
+        <h2 class="text-3xl font-bold text-grafite">Tecnologia é o que fazemos. Confiança é o que construímos.</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+          <span class="text-2xl font-bold text-grafite">01</span>
+          <h3 class="text-lg font-bold text-grafite mt-4">Entender antes de resolver</h3>
+          <p class="mt-2 text-sm text-gray-600">Um diagnóstico honesto e orientado exatamente à sua real necessidade, sem troca de peças desnecessárias.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+          <span class="text-2xl font-bold text-grafite">02</span>
+          <h3 class="text-lg font-bold text-grafite mt-4">Atender do seu jeito</h3>
+          <p class="mt-2 text-sm text-gray-600">Flexibilidade para atendimento no balcão, na sua empresa ou com rapidez através de acesso remoto seguro.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+          <span class="text-2xl font-bold text-grafite">03</span>
+          <h3 class="text-lg font-bold text-grafite mt-4">Cuidar da continuidade</h3>
+          <p class="mt-2 text-sm text-gray-600">Soluções definitivas, manutenções preventivas e acompanhamento contínuo para evitar novas paradas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Suporte Remoto / Ajuda à Distância -->
+  <section id="remoto" class="py-24 bg-grafite text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+      <div class="space-y-6">
+        <span class="text-xs uppercase tracking-widest bg-white/10 px-3 py-1 rounded-full text-gray-300 font-semibold">Ajuda, mesmo à distância</span>
+        <h2 class="text-3xl sm:text-4xl font-bold leading-tight">A gente está perto. Mesmo de longe.</h2>
+        <p class="text-gray-300 text-base leading-relaxed">
+          Precisa de suporte imediato sem precisar se deslocar? Nossos atendimentos remotos são feitos com total segurança e autorização direta do cliente.
+        </p>
+        <div class="space-y-3 text-sm text-gray-200">
+          <div class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-zap/20 text-zap flex items-center justify-center font-bold text-xs">1</span> Entre em contato e conte o que está acontecendo.</div>
+          <div class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-zap/20 text-zap flex items-center justify-center font-bold text-xs">2</span> Receba as orientações da equipe pelo WhatsApp.</div>
+          <div class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-zap/20 text-zap flex items-center justify-center font-bold text-xs">3</span> Conecte com segurança e acompanhe a solução na sua tela.</div>
+        </div>
+        <div class="pt-4">
+          <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Preciso%20de%20atendimento%20remoto."
+             class="inline-flex items-center gap-3 bg-zap hover:bg-zapDark text-white font-semibold px-7 py-3.5 rounded-xl shadow-lg transition">
+            Iniciar Suporte Remoto ↗
+          </a>
+        </div>
+      </div>
+      <div class="bg-chumbo/50 border border-white/10 p-8 rounded-3xl backdrop-blur-sm space-y-6">
+        <h3 class="text-xl font-bold">Ferramentas de Acesso</h3>
+        <p class="text-sm text-gray-300">
+          Caso o técnico solicite durante o atendimento, utilize sempre ferramentas confiáveis e homologadas para o suporte à distância.
+        </p>
+        <div class="grid grid-cols-2 gap-4 pt-2">
+          <a href="https://anydesk.com/pt" target="_blank" class="p-4 bg-grafite rounded-xl border border-white/5 hover:border-zap transition block text-center">
+            <p class="font-semibold text-sm">AnyDesk</p>
+            <p class="text-xs text-gray-400 mt-1">Download seguro ↗</p>
+          </a>
+          <a href="https://teamviewer.com/pt/" target="_blank" class="p-4 bg-grafite rounded-xl border border-white/5 hover:border-zap transition block text-center">
+            <p class="font-semibold text-sm">TeamViewer</p>
+            <p class="text-xs text-gray-400 mt-1">Download seguro ↗</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato / Rodapé de Contato (Estilo CTI) -->
+  <section id="contato" class="py-24 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <span class="text-xs uppercase tracking-widest text-gray-500 font-semibold">Vamos encontrar uma solução</span>
+        <h2 class="text-3xl font-bold text-grafite">Conte com a BMTech. Comece uma conversa.</h2>
+        <p class="text-gray-600">Descreva sua necessidade ou entre em contato diretamente pelos nossos canais oficiais.</p>
+        
+        <div class="space-y-4 pt-4 text-sm font-medium">
+          <div class="flex items-center gap-3">
+            <span class="text-gray-400">TELEFONE:</span>
+            <a href="tel:6730425701" class="text-grafite hover:text-zap">(67) 3042-5701 ↗</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-gray-400">WHATSAPP:</span>
+            <a href="https://wa.me/5567996839172" class="text-grafite hover:text-zap">(67) 99683-9172 ↗</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-gray-400">E-MAIL:</span>
+            <a href="mailto:bmtechinfo2@gmail.com" class="text-grafite hover:text-zap">bmtechinfo2@gmail.com ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-200 space-y-4">
+        <h3 class="text-xl font-bold text-grafite">Atendimento BMTech</h3>
+        <p class="text-sm text-gray-600">Segunda a sexta-feira, das 08h às 18h.</p>
+        <p class="text-sm text-gray-600">Campo Grande - MS</p>
+        <div class="pt-4 border-t border-gray-100">
+          <a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Gostaria%20de%20tirar%20uma%20dúvida."
+             class="w-full inline-flex items-center justify-center gap-2 bg-zap hover:bg-zapDark text-white font-semibold py-3.5 rounded-xl transition shadow-sm">
+            Falar pelo WhatsApp Agora ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Rodapé Principal -->
+<footer class="bg-grafite text-white py-12 border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
+    <div>
+      <span class="font-bold tracking-wider">BMTECH INFORMÁTICA</span>
+      <p class="text-xs text-gray-400 mt-1">© <span id="ano"></span> Todos os direitos reservados. Campo Grande, MS.</p>
+    </div>
+    <div class="flex items-center gap-6 text-gray-400 text-xs">
+      <a href="#servicos" class="hover:text-white transition">Serviços</a>
+      <a href="#remoto" class="hover:text-white transition">Suporte Remoto</a>
+      <a href="#contato" class="hover:text-white transition">Contato</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Botão Flutuante do WhatsApp -->
+<a href="https://wa.me/5567996839172?text=Ol%C3%A1%2C%20Baltazar!%20Vim%20pelo%20site%20da%20BMTech."
+   class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-zap hover:bg-zapDark text-white flex items-center justify-center shadow-2xl transition transform hover:scale-105 focus:outline-none"
+   aria-label="Falar com a BMTech no WhatsApp">
+  <span class="absolute inset-0 rounded-full bg-zap animate-pulse-soft -z-10" aria-hidden="true"></span>
+  <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6a12 12 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.9 9.9 0 1 1 8.3 4.6zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1l-1 1.2c-.2.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script>
+  document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
